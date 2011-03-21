@@ -3,7 +3,6 @@ style "nautilus-window"
 		bg[NORMAL] = shade (1.05, @bg_color)
 }
 
-
 style "nautilus-splitter"
 {
 	xthickness = 0
@@ -291,6 +290,8 @@ widget_class "*Nautilus*Scrollbar*"				style "nautilus-scrollbar"
 widget_class "NautilusNavigationWindow*GtkToolbar"			style "nautilus-toolbar"
 widget_class "*NautilusPathBar.*ToggleButton*" 			style "nautilus-breadcrumbs" 
 widget_class "*NautilusPathBar*" 			style "nautilus-pathbar" 
-widget_class "*NautilusPathBar*GtkButton*" 					style "nautilus-sliders" 
+widget_class "*NautilusPathBar*GtkButton" 					style "nautilus-sliders" 
 widget "*statusbar-noborder*"					style "nautilus-statusbar" 
 widget "*.nautilus-extra-view-widget" 				style "nautilus-location"
+
+widget_class "*.NautilusSidePane.GtkVBox.GtkHBox.<GtkButton>*"	style "button"

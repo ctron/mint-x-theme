@@ -115,4 +115,4 @@ style "handle-h-broken"
 
 widget_class "*__gtksharp_11_Nereid_PlayerInterface*GtkHPaned"		style "handle-v-broken"
 widget_class "*__gtksharp_45_Banshee_Sources_Gui_CompositeTrackSourceContents*GtkVPaned*" style "handle-h-broken"
-
+widget "*__gtksharp_??_Banshee_ContextPane_ContextPane*.GtkRadioButton"	style:highest "button"
