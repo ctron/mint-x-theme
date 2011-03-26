@@ -1,3 +1,8 @@
+mint-x-theme (1.0.3) katya; urgency=low
+
+  * Code clean up
+  * Notebook gradient uniformity fixes
+
 mint-x-theme (1.0.2) katya; urgency=low
 
   * Bug fixes and improvements from SkiesOfAzel
