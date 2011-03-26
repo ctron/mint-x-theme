@@ -394,6 +394,7 @@ widget_class "GtkWindow.GtkVBox.GtkHPaned.GtkVBox.GtkTable.GtkRadioButton"	style
 
 include "Apps/nautilus.rc"
 include "Apps/rhythmbox.rc"
+include "Apps/deluge.rc"
 include "Apps/eog.rc"
 include "Apps/banshee.rc"
 include "Apps/gimp.rc"

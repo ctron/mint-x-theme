@@ -1,7 +1,15 @@
+mint-x-theme (1.0.4) katya; urgency=low
+
+  * Deluge notebook fixes
+
+ -- SkiesOfAzel <nikount@gmail.com>  Sat,  26 Mar 2011 19:40:00 +0000
+
 mint-x-theme (1.0.3) katya; urgency=low
 
   * Code clean up
   * Notebook gradient uniformity fixes
+
+ -- SkiesOfAzel <nikount@gmail.com>  Sat,  26 Mar 2011 18:40:00 +0000
 
 mint-x-theme (1.0.2) katya; urgency=low
 
