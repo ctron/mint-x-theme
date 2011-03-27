@@ -180,7 +180,7 @@ style "radio"
 			function			= OPTION
 			state				= INSENSITIVE
 			shadow				= OUT
-			overlay_file			= "Radiocheck/check-i-shadow-out.png"
+			overlay_file			= "Radiocheck/radio-i-shadow-out.png"
 			overlay_stretch			= FALSE
 		}
 		image
@@ -207,7 +207,7 @@ style "radio"
 			recolorable			= TRUE
 			state				= ACTIVE
 			shadow				= IN
-			overlay_file			= "Radiocheck/check-shadow-in.png"
+			overlay_file			= "Radiocheck/radio-shadow-in.png"
 			overlay_stretch			= FALSE
 		}
 		image
@@ -216,7 +216,7 @@ style "radio"
 			recolorable			= TRUE
 			state				= SELECTED
 			shadow				= IN
-			overlay_file			= "Radiocheck/check-s-shadow-in.png"
+			overlay_file			= "Radiocheck/radio-s-shadow-in.png"
 			overlay_stretch			= FALSE
 		}
 		image
