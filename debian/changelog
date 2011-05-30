@@ -1,23 +1,13 @@
-mint-x-theme (1.0.5) katya; urgency=low
-
-  * Radio boxes are now round
-
- -- SkiesOfAzel <nikount@gmail.com>  Sun,  27 Mar 2011 22:40:00 +0000
-
 mint-x-theme (1.0.4) katya; urgency=low
 
+  * Round radio boxes
   * Deluge notebook fixes
-
- -- SkiesOfAzel <nikount@gmail.com>  Sat,  26 Mar 2011 19:40:00 +0000
-
-mint-x-theme (1.0.3) katya; urgency=low
-
-  * Code clean up
+  * Code clean-up
   * Notebook gradient uniformity fixes
 
- -- SkiesOfAzel <nikount@gmail.com>  Sat,  26 Mar 2011 18:40:00 +0000
+ -- SkiesOfAzel <nikount@gmail.com>  Mon,  30 May 2011 15:51:00 +0000
 
-mint-x-theme (1.0.2) katya; urgency=low
+mint-x-theme (1.0.3) katya; urgency=low
 
   * Bug fixes and improvements from SkiesOfAzel
 
