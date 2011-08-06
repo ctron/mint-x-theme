@@ -1,0 +1,62 @@
+/**************************************************************
+			Notebooks/Tabs          
+ *************************************************************/
+
+.notebook {
+    padding: 2;
+
+    border-color: @notebook_border;
+    border-style: solid;
+    border-width: 1;
+    border-radius: 4;
+
+    background-color: @theme_base_color;    
+
+    -GtkNotebook-tab-overlap: -2; /* Approaching or going away - between tabs each other */
+    -GtkNotebook-tab-curvature: 3; /* Tabs inclination - this value must be at least 2, becouse inclination of tabs have tendency to go on ...  */
+   
+}
+
+.notebook tab {
+    padding: 2 -2 0;
+    border-radius: 5; /* Close button mouse over */
+    background-image: -gtk-gradient (linear,
+                                     left top, left bottom,
+                                     from (@notebook_tab_gradient_a),	
+				     color-stop (0.25, shade (@notebook_tab_gradient_a, 0.97)),			     
+                                     to (shade (#accd8a, 1.10)));  /* Nonactive tab color */  
+    
+/*    transition: 80ms linear; This makes glowing close button, but theme is slower */ 
+}
+
+.notebook tab:active {
+    border-width: 1;
+    border-radius: 5;/* Close button down */
+    -adwaita-border-gradient: -gtk-gradient (linear,
+                                             left top, left bottom,
+                                             from (shade (@notebook_border, 1.0)),
+                                             to (@notebook_border));/* Tab border color */
+    
+    -adwaita-selected-tab-color: #ffffff; 
+    background-color: @theme_base_color;
+    background-image: none;
+}
+
+.notebook tab .button,
+.notebook tab .button:hover{
+    background-image: -gtk-gradient (linear,
+                   left top, right bottom,
+                   from (shade (@bg_color, 0.95)),
+                   to (shade (@bg_color, 1.15))); 
+    border-color: shade (@bg_color, 0.80);    
+}
+
+.notebook tab .button,
+.notebook tab .button:hover:active {
+    background-image: -gtk-gradient (linear,
+                   left top, right bottom,
+                   from (shade (@bg_color, 0.80)),
+                   to (shade (@bg_color, 0.99))); 
+    border-color: shade (@bg_color, 0.80);    
+}
+
