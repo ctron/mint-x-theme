@@ -96,9 +96,6 @@ style "panel-light"
 style "panel"
 {
 
-	xthickness				= 0
-	ythickness				= 0
-
 	fg[NORMAL]				= @fg_color
 	fg[PRELIGHT]				= "#000000"
 	fg[ACTIVE]				= "#000000"
@@ -108,27 +105,6 @@ style "panel"
 
 	bg_pixmap[NORMAL]			= "/Panel/panelbg.png" # Disable for normal panel backgrounds.
 
-	engine "pixmap"
-	{	
-		image
-		{
-			function		= BOX
-			recolorable		= TRUE
-			state			= PRELIGHT
-			file			= "Apps/Panel/button-active.png"
-			border			= { 8, 9, 12, 4}
-			stretch			= TRUE
-		}
-		image
-		{
-			function		= BOX
-			recolorable		= TRUE
-			file			= "Apps/Panel/panelbg.png"
-			border			= { 0, 0, 0, 1}
-			stretch			= TRUE
-			detail			= "menubar"
-		}
-	}
 }
 
 style "panel-handle" 

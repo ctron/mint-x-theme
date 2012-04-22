@@ -1,3 +1,9 @@
+mint-x-theme (1.0.7) debian; urgency=low
+
+  * Workaround for regression affecting pixmap engine
+
+ -- Clement Lefebvre <root@linuxmint.com>  Sun, 22 Apr 2012 09:55:00 +0100
+
 mint-x-theme (1.0.6-1lmde) debian; urgency=low
 
   * Unico GTK3 style
