@@ -400,3 +400,20 @@ include "Apps/banshee.rc"
 include "Apps/gimp.rc"
 include "Apps/inkscape.rc"
 include "Apps/panel.rc"
+
+style "null"
+{
+        engine "pixmap"
+        {
+        image
+        {
+            function    = BOX
+            file        = "Null/null.png"
+            stretch     = TRUE
+        }
+        }
+}
+
+widget "*swt*toolbar-flat"                  style "null"
+
+
